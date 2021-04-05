@@ -1,7 +1,5 @@
 # Setting up Dev Env on Mac
 
-> Last completed using **Big Sur** on **5 April 2021**
-
 | Last Completed | 5 April 2021   |
 |----------------|----------------|
 | Mac OS         | Big Sur 11.2.3 |
@@ -21,8 +19,6 @@
 <br/>
 
 **Fire up the Terminal and get started:**
-
-</br>
 
 ## 1. Install Xcode
 ```
