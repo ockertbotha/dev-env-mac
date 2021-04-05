@@ -2,7 +2,27 @@
 
 > Last completed using **Big Sur** on **5 April 2021**
 
-Fire up the Terminal and get started:
+| Last Completed | 5 April 2021   |
+|----------------|----------------|
+| Mac OS         | Big Sur 11.2.3 |
+
+| Installed Tools / Software |
+|----------------------------|
+| Xcode                      |
+| Homebrew                   |
+| git                        |
+| iTerm2                     |
+| zsh, Oh My Zsh             |
+| Powerlevel10K              |
+| Java JDK                   |
+| jEnv                       |
+| Maven                      |
+
+<br/>
+
+**Fire up the Terminal and get started:**
+
+</br>
 
 ## 1. Install Xcode
 ```
@@ -123,7 +143,7 @@ echo 'eval "$(jenv init -)"' >> ~/.zshrc
 
 ## 16. Restart iTerm2
 
-## 12. Setup jEnv
+## 17. Setup jEnv
 ```
 jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 ```
@@ -132,7 +152,7 @@ jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 ```
 
-## 17. Install Maven
+## 18. Install Maven
 ```
 brew install maven
 ```
