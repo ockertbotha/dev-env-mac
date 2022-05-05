@@ -124,28 +124,56 @@ brew install adoptopenjdk8
 brew install adoptopenjdk11
 ```
 
-## 15. Install jEnv
->Home: https://www.jenv.be/
+## 15. Install SDKMAN
+>Home: https://sdkman.io/
+
+>Usage: https://sdkman.io/usage
 
 ```
-brew install jenv
+curl -s "https://get.sdkman.io" | bash
 ```
+
+Open a new terminal and check installation with: 
+
 ```
-echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+sdk help
 ```
+
 ```
-echo 'eval "$(jenv init -)"' >> ~/.zshrc
+sdk install java 8.0.332-zulu   
+```
+
+For the default current Java run:
+```
+sdk install java  
 ```
 
 ## 16. Restart iTerm2
 
-## 17. Setup jEnv
+## 17. Setting JDK for a project
+### 1. In the project root run:
 ```
-jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+sdk env init
 ```
 
+### 2. Edit the new .sdkmanrc file:
+
 ```
-jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+# Enable auto-env through the sdkman_auto_env config
+# Add key=value pairs of SDKs to use below
+java=8.0.332-zulu
+```
+
+### 3. Switch to the new environment:
+
+```
+sdk env
+```
+
+### 4. New check the version is as configured with:
+
+```
+java -version
 ```
 
 ## 18. Install Maven
