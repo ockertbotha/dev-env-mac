@@ -18,3 +18,35 @@
  - On ```Text``` tab under ```Spelling``` either select ```Afrikaans (Library)``` if you only want to use that, or select the last option ```Set Up...``` and configure the automatic detection order of precedence.
 
  >Having just set this up on Big Sur (April 2021), it works for spell checking when Afrikaans as the only language selected and the application being typed in is language aware, but results in no Touch Bar suggestions. It doesn't feel as good an experience as I'd hoped. Will update this if I find further info to improve things.
+
+ ## Productivity Apps
+
+ ### 1. Window Snapping - Rectangle
+ - https://rectangleapp.com/
+
+ ### 2. Window Swapping - Alt-Tab
+ - https://alt-tab-macos.netlify.app/
+
+ ### 3. Screen Brightness - Monitor Control
+ - https://github.com/MonitorControl/MonitorControl
+
+ ### 4. Uninstall Assistant - AppCleaner
+ - https://freemacsoft.net/appcleaner/
+
+ ### 5. Performance Monitor - iStat Menu
+ - https://apps.apple.com/gb/app/istat-menus/id1319778037?mt=12
+ 
+ ### 6. Shortcut Keys - CheatSheet
+ - https://www.mediaatelier.com/CheatSheet/
+
+ ### 7. Menu Bar Manager - Hidden Bar
+ - https://apps.apple.com/gb/app/hidden-bar/id1452453066
+
+ ### 8. The Alfred
+ - https://alfredapp.com/
+
+ ### 9. Screenshot Tool - Shottr 
+- https://shottr.cc/
+
+### 10. Clipboard Manager - Maccy
+- https://maccy.app/
