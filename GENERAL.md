@@ -50,3 +50,6 @@
 
 ### 10. Clipboard Manager - Maccy
 - https://maccy.app/
+
+### 11. Analysing Disk Usage - Disk Inventory X
+- http://www.derlien.com/index.html
