@@ -34,6 +34,8 @@ sudo xcode-select --install
 Once Homebrew installation is complete a **Next steps:** message is displayed the first of which is **Add Homebrew to your PATH**, copy and execute **YOUR** version of message.
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ockert/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 ```
 
 ## 4. Verify Homebrew
