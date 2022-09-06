@@ -115,6 +115,11 @@ To run it again:
 > p10k configure 
 > ``` 
 
+> ### VSCode Font Setup
+> ```
+> "terminal.integrated.fontFamily": "MesloLGS NF",
+> "terminal.integrated.defaultProfile.osx": "zsh",
+> ```
 ## 14. Install Java
 ```
 brew tap adoptopenjdk/openjdk
