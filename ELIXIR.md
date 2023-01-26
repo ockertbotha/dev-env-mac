@@ -1,13 +1,14 @@
 # Install and Configure Elixir with asdf
 
 ## Installing asdf
----
+
 Install asdf - https://asdf-vm.com/guide/getting-started.html 
 - Use Official Download (Git)
 - For install use ZSH & Git oh-my-zsh - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf 
 
-## Installing Erlang
 ---
+## Installing Erlang
+
 Install  asdf-erlang plugin - https://github.com/asdf-vm/asdf-erlang
 >Read the **Before ```asdf install```** section and focus on OSX instructions
 
@@ -36,9 +37,10 @@ asdf install erlang latest
 ```
 asdf global erlang latest
 ```
+---
 
 ## Installing Elixir
----
+
 Add elixir plugin
 ```
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
@@ -53,8 +55,9 @@ asdf install elixir latest
 asdf global elixir latest
 ```
 
-## Test with
 --- 
+
+## Test with
 ```
 iex
 ```
