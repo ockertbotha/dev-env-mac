@@ -31,3 +31,10 @@ nvm install --lts
 ```
 node -v
 ```
+---
+
+## Adding node_modules to path
+
+```
+echo 'PATH=$PATH:./node_modules/.bin:../node_modules/.bin' >> ~/.zshrc
+```
