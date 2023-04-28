@@ -35,6 +35,7 @@
 
  ### 5. Performance Monitor - iStat Menu
  - https://apps.apple.com/gb/app/istat-menus/id1319778037?mt=12
+ > Consider Stats: brew install stats
  
  ### 6. Shortcut Keys - CheatSheet
  - https://www.mediaatelier.com/CheatSheet/
