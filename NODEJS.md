@@ -38,3 +38,8 @@ node -v
 ```
 echo 'PATH=$PATH:./node_modules/.bin:../node_modules/.bin' >> ~/.zshrc
 ```
+
+## Installing Nest globally
+```
+npm i -g @nestjs/cli
+```

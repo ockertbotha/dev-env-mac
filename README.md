@@ -1,9 +1,5 @@
 # Setting up Dev Env on Mac
 
-| Last Completed | 5 April 2021   |
-|----------------|----------------|
-| Mac OS         | Big Sur 11.2.3 |
-
 | Installed Tools / Software |
 |----------------------------|
 | Xcode                      |
@@ -12,8 +8,7 @@
 | iTerm2                     |
 | zsh, Oh My Zsh             |
 | Powerlevel10K              |
-| Java JDK                   |
-| jEnv                       |
+| SDKMan                     |
 | Maven                      |
 
 <br/>
@@ -120,18 +115,8 @@ To run it again:
 > "terminal.integrated.fontFamily": "MesloLGS NF",
 > "terminal.integrated.defaultProfile.osx": "zsh",
 > ```
-## 14. Install Java
-```
-brew tap adoptopenjdk/openjdk
-```
-```
-brew install adoptopenjdk8
-```
-```
-brew install adoptopenjdk11
-```
 
-## 15. Install SDKMAN
+## 14. Install SDKMAN
 >Home: https://sdkman.io/
 
 >Usage: https://sdkman.io/usage
@@ -155,9 +140,9 @@ For the default current Java run:
 sdk install java  
 ```
 
-## 16. Restart iTerm2
+## 15. Restart iTerm2
 
-## 17. Setting JDK for a project
+## 16. Setting JDK for a project
 ### 1. In the project root run:
 ```
 sdk env init
