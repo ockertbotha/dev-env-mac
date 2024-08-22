@@ -132,17 +132,19 @@ sdk help
 ```
 
 ```
-sdk install java 8.0.332-zulu   
+sdk install java 8.0.332-zulu
+sdk install maven 3.9.9   
 ```
 
-For the default current Java run:
+For the default current versions run:
 ```
-sdk install java  
+sdk install java
+sdk install maven  
 ```
 
 ## 15. Restart iTerm2
 
-## 16. Setting JDK for a project
+## 16. Setting JDK and Maven for a project
 ### 1. In the project root run:
 ```
 sdk env init
@@ -154,6 +156,7 @@ sdk env init
 # Enable auto-env through the sdkman_auto_env config
 # Add key=value pairs of SDKs to use below
 java=8.0.332-zulu
+maven=3.9.9
 ```
 
 ### 3. Switch to the new environment:
@@ -166,9 +169,8 @@ sdk env
 
 ```
 java -version
+mvn -v
 ```
-
-## 18. Install Maven
+Both Java and Maven versions should match the selected versions and Maven should be using the selected Java version. (This did not detect directly after Maven install but corrected itself while being investigated). Check all paths using: 
 ```
-brew install maven
-```
+env
