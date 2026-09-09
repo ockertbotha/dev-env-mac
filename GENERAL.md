@@ -2,6 +2,13 @@
 
  ## Productivity Apps
 
+### A. Vorssaint
+This app seems to replace almost all of the below.
+```shell 
+brew install --cask vorssaint 
+```
+- https://github.com/vorssaint/vorssaint-utils
+
  ### 1. Window Snapping - Rectangle
  - https://rectangleapp.com/
 
